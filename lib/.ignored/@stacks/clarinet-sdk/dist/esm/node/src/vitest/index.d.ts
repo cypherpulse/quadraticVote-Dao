@@ -1,0 +1,31 @@
+export declare function getClarinetVitestsArgv(): {
+    [x: string]: unknown;
+    "manifest-path": string;
+    manifestPath: string;
+    "init-before-each": boolean;
+    initBeforeEach: boolean;
+    coverage: boolean;
+    costs: boolean;
+    "coverage-filename": string;
+    coverageFilename: string;
+    "costs-filename": string;
+    costsFilename: string;
+    _: (string | number)[];
+    $0: string;
+} | Promise<{
+    [x: string]: unknown;
+    "manifest-path": string;
+    manifestPath: string;
+    "init-before-each": boolean;
+    initBeforeEach: boolean;
+    coverage: boolean;
+    costs: boolean;
+    "coverage-filename": string;
+    coverageFilename: string;
+    "costs-filename": string;
+    costsFilename: string;
+    _: (string | number)[];
+    $0: string;
+}>;
+export declare const vitestHelpersPath: string;
+export declare const vitestSetupFilePath: string;
